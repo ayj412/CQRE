@@ -1,0 +1,17 @@
+/* 공통 */
+* {margin: 0; padding: 0;}
+.container-fluid { max-width: 1700px; margin: 0 auto;}
+
+a{ color: inherit; text-decoration: none;}
+a:link{ text-decoration: none; }
+/* 공통 모달 닫기 흰색 */
+.close { opacity: 1; color: #fff; transition: all 0.125s ease-in 0s; }
+.close:hover { color: #dee2e6; }
+/* 폰트 */
+body { font-family: 'Noto Sans KR', sans-serif; -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: grayscale;}
+.fontawesome { font-family:Arial, FontAwesome; }
+
+/* 플렉스안 자식요소들 너비 같게 */
+.flex-equal {
+    flex: 1;
+}
